@@ -45,7 +45,7 @@ export const Header = () => {
                         <Box className={'text-shadow'}>Martina &amp; Luka&nbsp;</Box>
                     </h1>
                     <Box>
-                        <Heading className="website-breeze__date website-breeze__editable darker text-shadow" style={{color: 'white', fontWeight: 700}}>28 October 2023</Heading>
+                        <Heading className="website-breeze__date website-breeze__editable darker text-shadow" style={{color: 'white', fontWeight: 700}}>28.10.2023</Heading>
 
                     </Box>
 
@@ -70,7 +70,7 @@ export const Header = () => {
                 {/*    </Box>*/}
                 {/*</Box>*/}
                 <Box w={'90%'}  position={'absolute'} top={screenSize.width < 928 ? screenSize.width < 366 ? `${height - 70}px` : `${height - 70}px` : `${height - 50}px`}><h2 className="website-breeze__cover-h2 website-breeze__editable" style={{width: 'fit-content'}}>
-                    <Box className={'text-shadow'} paddingY={'8px'} alignSelf={'center'} backdropBlur={'8px'} borderRadius={'8px'} width={'fit-content'} fontStyle={'Roboto Mono'} fontWeight={700}>POZIVAMO VAS DA ZAJEDNO PROSLAVIMO DAN NAŠEG VJENČANJA !</Box>
+                    <Box className={'text-shadow'} paddingY={'8px'} alignSelf={'center'} backdropBlur={'8px'} borderRadius={'8px'} width={'fit-content'} fontStyle={'Comfortaa'} fontWeight={700}>POZIVAMO VAS DA ZAJEDNO PROSLAVIMO DAN NAŠEG VJENČANJA !</Box>
                 </h2></Box>
             </Box>
         </Flex>

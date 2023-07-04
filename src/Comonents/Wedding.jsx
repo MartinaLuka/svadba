@@ -1,5 +1,5 @@
 import image from "../images/naslovna.jpg"
-import {Box, Heading} from "@chakra-ui/react";
+import {Box, Divider, Heading} from "@chakra-ui/react";
 import {ContactForm} from "./ContactForm";
 import {Header} from "./Header";
 export const Wedding = () => {
@@ -54,7 +54,8 @@ export const Wedding = () => {
                 <link rel="preload" href="/_next/static/css/39656cc04ece1f8f.css" as="style" />
                 <link rel="stylesheet" href="/_next/static/css/39656cc04ece1f8f.css" data-n-g />
                 <noscript data-n-css />
-                <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400&display=swap" rel="stylesheet"/>
+                <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet"/>
+                {/*<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400&display=swap" rel="stylesheet"/>*/}
                 {/*<link rel="stylesheet"  href="https://fonts.googleapis.com/css2?family=Roboto Mono:wght@300&family=Poppins:wght@400;700&display=swap" media="all" />*/}
                 {/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans%7COpen+Sans" media="all" />*/}
                 <meta httpEquiv="origin-trial" content="AymqwRC7u88Y4JPvfIF2F37QKylC04248hLCdJAsh8xgOfe/dVJPV3XS3wLFca1ZMVOtnBfVjaCMTVudWM//5g4AAAB7eyJvcmlnaW4iOiJodHRwczovL3d3dy5nb29nbGV0YWdtYW5hZ2VyLmNvbTo0NDMiLCJmZWF0dXJlIjoiUHJpdmFjeVNhbmRib3hBZHNBUElzIiwiZXhwaXJ5IjoxNjk1MTY3OTk5LCJpc1RoaXJkUGFydHkiOnRydWV9" />
@@ -78,7 +79,7 @@ export const Wedding = () => {
                                 </div>
                             </div>
                             <div className="website-breeze__two-in-row-column">
-                                <div className="website-breeze__image" style={{backgroundImage: 'url(https://static0.planning.wedding/website-theme/breeze/3769d216e0ad_normal.jpg), url(data:image/png', backgroundSize: 'cover', backgroundPosition: 'center center'}} />
+                                <div className="website-breeze__image" style={{backgroundImage: 'url("https://lh5.googleusercontent.com/p/AF1QipMVvAx4gpp16qmrs5zIUQFiRgDsfg5LeRfqVUqW=s870-k-no"), url(data:image/png', backgroundSize: 'cover', backgroundPosition: 'center center'}} />
                             </div>
                         </div>
                     </Box>
@@ -96,7 +97,7 @@ export const Wedding = () => {
                                         <div>OBRED</div>
                                     </h3>
                                     <br />
-                                    <p className="website-breeze__section-date website-breeze__editable">28 October 2023</p>
+                                    <p className="website-breeze__section-date website-breeze__editable">28.10.2023</p>
                                     <br />
                                     <h4 className="website-breeze__section-time website-breeze__editable">
                                         <div>16:30h</div>
@@ -117,7 +118,7 @@ export const Wedding = () => {
                                         <div>VEČERA</div>
                                     </h3>
                                     <br />
-                                    <p className="website-breeze__section-date website-breeze__editable">28 October 2023</p>
+                                    <p className="website-breeze__section-date website-breeze__editable">28.10.2023</p>
                                     <br />
                                     <h4 className="website-breeze__section-time website-breeze__editable">
                                         <div>18:30h</div>
@@ -126,7 +127,7 @@ export const Wedding = () => {
                                     <p className="website-breeze__section-location  website-breeze__editable">Ul. Nikole Tesle 88, 31400, Đakovo, Croatia</p>
                                     <br />
                                     <p className="website-breeze__section-map-link"><a href="https://www.google.com/maps/search/?api=1&query=@45.3350783,18.4196805,19z&query_place_id=EixVbC4gTmlrb2xlIFRlc2xlIDg4LCAzMTQwMCwgxJBha292bywgQ3JvYXRpYSIwEi4KFAoSCR05sPlz_1xHEe2yl6zRZ4VmEFgqFAoSCcWjAn16_1xHESnwdURusoWF" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></p>
-                                    <a className="website-breeze__section-rsvp" href="#rsvp">POTVRDA DOLASKA</a>
+                                    <a className="website-breeze__section-rsvp" href="#rsvp" >POTVRDA DOLASKA</a>
                                 </div>
                             </div>
                             <div className="website-breeze__two-in-row-column website-breeze__move-up">
@@ -151,10 +152,11 @@ export const Wedding = () => {
                             </div>
                         </div>
                     </div>
+                    <Divider h={'1px'} bgColor={'white'} w={'70%'}/>
                     <div id="rsvp" className="website-breeze__container">
-                        <h2 className="website-breeze__section-h2 website-breeze__editable">
+                        <Box className="website-breeze__section-h2 website-breeze__editable" style={{fontWeight: 700, fontSize: '24px', marginBottom: '-32px', marginTop: '16px'}}>
                             <div>POTVRDA DOLASKA</div>
-                        </h2>
+                        </Box>
                         <p className="website-breeze__story website-breeze__editable">
                         </p><div>
                         Ako imate kakve posebne dijetne restrikcije (vegetarijanska, bezglutenska prehrana primjerice), molimo da nam to naglasite.

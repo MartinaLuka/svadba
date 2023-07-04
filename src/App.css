@@ -119,7 +119,7 @@ html {
   margin: 0px auto;
   padding: 15px;
   color: #ffffff;
-  font-family: 'Roboto Mono';
+  font-family: 'Comfortaa';
 }
 .website-breeze__container a {
   color: #3f3e3e;
@@ -136,7 +136,7 @@ html {
   position: relative;
   display: flex;
   justify-content: center;
-  font-family: 'Roboto Mono';
+  font-family: 'Comfortaa';
   transition: min-height 0.03s, height 0.03s;
 }
 .website-breeze__cover-backdrop {
@@ -248,7 +248,7 @@ html {
 .website-breeze__h1 {
   font-size: 60px;
   color: #e8e8e8;
-  font-family: 'Roboto Mono';
+  font-family: 'Comfortaa';
   text-align: center;
   display: inline-block;
   padding: 5px 20px 5px 20px;
@@ -271,7 +271,7 @@ html {
 .website-breeze__section-h2 {
   font-size: 30px;
   color: #ffffff;
-  font-family: 'Roboto Mono';
+  font-family: 'Comfortaa';
   padding: 5px 20px 5px 20px;
   display: inline-block;
   position: relative;
