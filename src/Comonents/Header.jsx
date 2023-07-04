@@ -44,7 +44,7 @@ export const Header = () => {
                     <h1 className="website-breeze__h1 website-breeze__editable">
                         <Box className={'text-shadow'}>Martina &amp; Luka&nbsp;</Box>
                     </h1>
-                    <Box>
+                    <Box mt={'-32px'}>
                         <Heading className="website-breeze__date website-breeze__editable darker text-shadow" style={{color: 'white', fontWeight: 700}}>28.10.2023</Heading>
 
                     </Box>
