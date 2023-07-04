@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/svadba/static/css/main.5e9ffc66.css",
-    "main.js": "/svadba/static/js/main.a92f7410.js",
+    "main.js": "/svadba/static/js/main.0a9a2efd.js",
     "static/js/787.4ff3cea1.chunk.js": "/svadba/static/js/787.4ff3cea1.chunk.js",
     "static/media/naslovna-center.jpg": "/svadba/static/media/naslovna-center.577dc9de03b5cccd95c8.jpg",
     "static/media/naslovna.jpg": "/svadba/static/media/naslovna.eec63cf168d6ae460958.jpg",
     "static/media/logo.svg": "/svadba/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/svadba/index.html",
     "main.5e9ffc66.css.map": "/svadba/static/css/main.5e9ffc66.css.map",
-    "main.a92f7410.js.map": "/svadba/static/js/main.a92f7410.js.map",
+    "main.0a9a2efd.js.map": "/svadba/static/js/main.0a9a2efd.js.map",
     "787.4ff3cea1.chunk.js.map": "/svadba/static/js/787.4ff3cea1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e9ffc66.css",
-    "static/js/main.a92f7410.js"
+    "static/js/main.0a9a2efd.js"
   ]
 }
