@@ -84,9 +84,7 @@ export const Wedding = () => {
                                     </p>
                                     <br />
                                     <Box mb={'-32px'} className="website-breeze__section-map-link"><a href="https://www.google.com/maps/place/%C4%90akova%C4%8Dki+podrum+Mali/@45.318774,18.4151745,18.82z/data=!4m6!3m5!1s0x475c554eb6e7f8b3:0x302edf8953a1060d!8m2!3d45.3186626!4d18.4156288!16s%2Fg%2F11sy9p7zxk?entry=ttu" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></Box>
-                                    <p className="website-breeze__story website-breeze__editable">
-                                    </p><div>Rezervirali smo apartmane po Đakovu pa bismo vas molili skorašnji odgovor kako bismo organizirali spavanja te vam na vrijeme poslali lokaciju. Svi smještaji su na maksimalmo 10 minuta vožnje od sale, a u Đakovu postoji i taksi pomoću kojeg se možete prevesti do apartmana ne vodeći brigu o policiji po putu :)</div>
-                                    <p />
+
                                 </div>
                             </div>
                             <div className="website-breeze__two-in-row-column">
