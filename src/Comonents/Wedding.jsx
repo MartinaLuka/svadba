@@ -73,6 +73,17 @@ export const Wedding = () => {
                                     <h3 className="website-breeze__section-h3 website-breeze__editable">
                                         <Box style={{fontWeight: 700}}>Okupljanje</Box>
                                     </h3>
+                                    <br />
+                                    <p className="website-breeze__section-date website-breeze__editable">28.10.2023</p>
+                                    <br />
+                                    <h4 className="website-breeze__section-time website-breeze__editable">
+                                        <div>13:30h</div>
+                                    </h4>
+                                    <br />
+                                    <p className="website-breeze__section-location  website-breeze__editable">Vinarija Podrum Mali, Ul. Vladimira Nazora 43a, 31400, Đakovo
+                                    </p>
+                                    <br />
+                                    <Box mb={'-32px'} className="website-breeze__section-map-link"><a href="https://www.google.com/maps/place/%C4%90akova%C4%8Dki+podrum+Mali/@45.318774,18.4151745,18.82z/data=!4m6!3m5!1s0x475c554eb6e7f8b3:0x302edf8953a1060d!8m2!3d45.3186626!4d18.4156288!16s%2Fg%2F11sy9p7zxk?entry=ttu" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></Box>
                                     <p className="website-breeze__story website-breeze__editable">
                                     </p><div>Rezervirali smo apartmane po Đakovu pa bismo vas molili skorašnji odgovor kako bismo organizirali spavanja te vam na vrijeme poslali lokaciju. Svi smještaji su na maksimalmo 10 minuta vožnje od sale, a u Đakovu postoji i taksi pomoću kojeg se možete prevesti do apartmana ne vodeći brigu o policiji po putu :)</div>
                                     <p />
@@ -100,10 +111,10 @@ export const Wedding = () => {
                                     <p className="website-breeze__section-date website-breeze__editable">28.10.2023</p>
                                     <br />
                                     <h4 className="website-breeze__section-time website-breeze__editable">
-                                        <div>16:30h</div>
+                                        <div>16:00h</div>
                                     </h4>
                                     <br />
-                                    <p className="website-breeze__section-location  website-breeze__editable">Strossmayerov trg 6, 31400, Đakovo, Croatia</p>
+                                    <p className="website-breeze__section-location  website-breeze__editable">Strossmayerov trg 6, 31400, Đakovo</p>
                                     <br />
                                     <p className="website-breeze__section-map-link"><a href="https://www.google.com/maps/search/?api=1&query=@45.3078845,18.4100926,19z&query_place_id=ChIJYbGa3pBVXEcRC2Ch7n1so0M" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></p>
                                     <a className="website-breeze__section-rsvp" href="#rsvp">POTVRDA DOLASKA</a>
@@ -124,7 +135,7 @@ export const Wedding = () => {
                                         <div>18:30h</div>
                                     </h4>
                                     <br />
-                                    <p className="website-breeze__section-location  website-breeze__editable">Ul. Nikole Tesle 88, 31400, Đakovo, Croatia</p>
+                                    <p className="website-breeze__section-location  website-breeze__editable">Ul. Nikole Tesle 88, 31400, Đakovo</p>
                                     <br />
                                     <p className="website-breeze__section-map-link"><a href="https://www.google.com/maps/search/?api=1&query=@45.3350783,18.4196805,19z&query_place_id=EixVbC4gTmlrb2xlIFRlc2xlIDg4LCAzMTQwMCwgxJBha292bywgQ3JvYXRpYSIwEi4KFAoSCR05sPlz_1xHEe2yl6zRZ4VmEFgqFAoSCcWjAn16_1xHESnwdURusoWF" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></p>
                                     <a className="website-breeze__section-rsvp" href="#rsvp" >POTVRDA DOLASKA</a>
@@ -146,7 +157,7 @@ export const Wedding = () => {
                                         <div>GDJE PRESPAVATI?</div>
                                     </h3>
                                     <p className="website-breeze__story website-breeze__editable">
-                                    </p><div>Rezervirali smo apartmane po Đakovu pa bismo vas molili skorašnji odgovor kako bismo organizirali spavanja te vam na vrijeme poslali lokaciju. Svi smještaji su na maksimalmo 10 minuta vožnje od sale, a u Đakovu postoji i taksi pomoću kojeg se možete prevesti do apartmana ne vodeći brigu o policiji po putu :)</div>
+                                    </p><div>Rezervirali smo apartmane po Đakovu pa bismo vas molili skorašnji odgovor kako bismo organizirali spavanja te vam na vrijeme poslali lokaciju. Svi smještaji su na maksimalno 10 minuta vožnje od sale, a u Đakovu postoji i taksi pomoću kojeg se možete prevesti do apartmana ne vodeći brigu o policiji po putu :)</div>
                                     <p />
                                 </div>
                             </div>
@@ -164,7 +175,7 @@ export const Wedding = () => {
                         <div>
                             Također, ukoliko ste zainteresirani za organizirani prijevoz s busom ili kombijem (polazak u subotu ujutro, povratak u ranim jutarnjim satima u nedjelju), molimo napišite u sekciju za komentar.
                             <div><br /></div>
-                            <div>Očekujemo vaš (okviran) odgovor do 1.8. kako bismo na vrijeme organizirali smještaj i broj uzvanika u sali.</div>
+                            <div>Očekujemo vaš (okviran) odgovor do 1.8. kako bismo na vrijeme organizirali smještaj i broj uzvanika u sali. Konačan odgovor i potvrdu broja ljudi očekujemo zaključno s 13.10.</div>
                         </div>
                         <div><br /></div>
                         <div>Veselimo se Vašem dolasku! :)</div>
