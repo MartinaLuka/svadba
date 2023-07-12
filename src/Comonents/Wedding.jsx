@@ -4,7 +4,7 @@ import {ContactForm} from "./ContactForm";
 import {Header} from "./Header";
 export const Wedding = () => {
         return (
-            <div style={{backgroundColor: "#9AA0A6"}}>
+            <div style={{backgroundColor: "#a5bbb9"}}>
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
                 <link rel="manifest" href="/manifest.json" />
                 <link rel="shortcut icon" href="/favicon-32x32.png" />
@@ -71,7 +71,7 @@ export const Wedding = () => {
                             <div className="website-breeze__two-in-row-column website-breeze__vertical-centred">
                                 <div className="website-breeze__text-center">
                                     <h3 className="website-breeze__section-h3 website-breeze__editable">
-                                        <Box style={{fontWeight: 700}}>Okupljanje</Box>
+                                        <Box style={{fontWeight: 700}}>OKUPLJANJE</Box>
                                     </h3>
                                     <br />
                                     <p className="website-breeze__section-date website-breeze__editable">28.10.2023</p>
@@ -84,7 +84,7 @@ export const Wedding = () => {
                                     </p>
                                     <br />
                                     <Box mb={'-32px'} className="website-breeze__section-map-link"><a href="https://www.google.com/maps/place/%C4%90akova%C4%8Dki+podrum+Mali/@45.318774,18.4151745,18.82z/data=!4m6!3m5!1s0x475c554eb6e7f8b3:0x302edf8953a1060d!8m2!3d45.3186626!4d18.4156288!16s%2Fg%2F11sy9p7zxk?entry=ttu" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></Box>
-
+                                    <a style={{marginTop: 56}} className="website-breeze__section-rsvp" href="#rsvp">POTVRDA DOLASKA</a>
                                 </div>
                             </div>
                             <div className="website-breeze__two-in-row-column">

@@ -17,6 +17,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #B161BA !important;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -140,7 +144,7 @@ html {
   transition: min-height 0.03s, height 0.03s;
 }
 .website-breeze__cover-backdrop {
-  background: #626262;
+  background: #A5BBB9;
   opacity: 0;
   position: absolute;
   top: 0px;
