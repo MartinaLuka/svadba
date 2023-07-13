@@ -1,4 +1,4 @@
-import image from "../images/naslovna-center_35.png";
+import image from "../images/naslovna-center_50.png";
 import {Box, Flex, Heading} from "@chakra-ui/react";
 import {useEffect, useRef, useState} from "react";
 
