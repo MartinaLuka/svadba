@@ -49,7 +49,7 @@ body {
    pointer-events: none;
  }
 #nprogress .bar {
-  background: #B161BA;
+  background: #A5BBB9;
   position: fixed;
   z-index: 9999;
   top: 0;
