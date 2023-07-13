@@ -70,7 +70,7 @@ export const Header = () => {
                 {/*    </Box>*/}
                 {/*</Box>*/}
                 <Box  w={'90%'}  position={'absolute'} top={screenSize.width < 928 ? screenSize.width < 366 ? `${height - 55}px` : `${height - 50}px` : `${height - 70}px`} ><h2 className="website-breeze__cover-h2 website-breeze__editable" style={{width: 'fit-content'}}>
-                    <Box  bgColor={'rgba(100, 100, 100, 0.1)'} color={'black'} paddingY={'8px'} alignSelf={'center'} backdropBlur={'8px'} borderRadius={'8px'} width={'fit-content'} fontStyle={'Comfortaa'} fontWeight={700} fontSize={screenSize.width < 928 ? screenSize.width < 366 ? `10px !important` : `12px` : `22px`}>POZIVAMO VAS DA ZAJEDNO PROSLAVIMO DAN NAŠEG VJENČANJA !</Box>
+                    <Box  /*bgColor={'rgba(100, 100, 100, 0.1)'}*/ color={'black'} paddingY={'8px'} alignSelf={'center'} backdropBlur={'8px'} borderRadius={'8px'} width={'fit-content'} fontStyle={'Comfortaa'} fontWeight={700} fontSize={screenSize.width < 928 ? screenSize.width < 366 ? `10px !important` : `12px` : `22px`}>POZIVAMO VAS DA ZAJEDNO PROSLAVIMO DAN NAŠEG VJENČANJA !</Box>
                 </h2></Box>
             </Box>
         </Flex>
