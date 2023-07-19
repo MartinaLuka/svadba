@@ -1,4 +1,4 @@
-import image from "../images/naslovna-center_50.png";
+import image from "../images/obicna.png";
 import {Box, Flex, Heading} from "@chakra-ui/react";
 import {useEffect, useRef, useState} from "react";
 
@@ -37,19 +37,19 @@ export const Header = () => {
 
     return (
         <Flex w={'100%'}>
-            <Box ref={ref} position={'relative'} id="header" className="website-breeze__cover" style={{backgroundImage:`url(${image})`, height: 'auto', backgroundSize: 'cover', backgroundPosition: 'center center', width: '100%' }}>
+            <Box ref={ref} position={'relative'} id="header" className="website-breeze__cover" style={{backgroundImage:`url(${image})`, height: `${screenSize.width / 10}px`, backgroundSize: 'cover', backgroundPosition: 'center center', width: '100%' }}>
                 {/*<Box className="website-breeze__cover-backdrop" />*/}
                 {/*<Box className="website-breeze__cover-box">*/}
-                <Flex position={'absolute'} top={screenSize.width > 600 ? '15%' : '16px'} flexDir={'column'}>
-                    <h1 className="website-breeze__h1 website-breeze__editable">
-                        <Box color={'black'} /*className={'text-shadow'}*/>Martina &amp; Luka&nbsp;</Box>
-                    </h1>
-                    <Box mt={'-44px'}>
-                        <Heading  className="website-breeze__date website-breeze__editable darker" style={{color: 'black', fontWeight: 700}}>28.10.2023</Heading>
+                {/*<Flex position={'absolute'} top={screenSize.width > 600 ? '15%' : '16px'} flexDir={'column'}>*/}
+                {/*    <h1 className="website-breeze__h1 website-breeze__editable">*/}
+                {/*        <Box color={'black'} /*className={'text-shadow'}>Martina &amp; Luka&nbsp;</Box>*/}
+                {/*    </h1>*/}
+                {/*    <Box mt={'-44px'}>*/}
+                {/*        <Heading  className="website-breeze__date website-breeze__editable darker" style={{color: 'black', fontWeight: 700}}>28.10.2023</Heading>*/}
 
-                    </Box>
+                {/*    </Box>*/}
 
-                </Flex>
+                {/*</Flex>*/}
 
 
                 {/*    <Box className="website-breeze__centred-content" mt={'48px'}>*/}
@@ -69,9 +69,9 @@ export const Header = () => {
 
                 {/*    </Box>*/}
                 {/*</Box>*/}
-                <Box  w={'90%'}  position={'absolute'} top={screenSize.width < 928 ? screenSize.width < 366 ? `${height - 55}px` : `${height - 50}px` : `${height - 70}px`} ><h2 className="website-breeze__cover-h2 website-breeze__editable" style={{width: 'fit-content'}}>
-                    <Box  /*bgColor={'rgba(100, 100, 100, 0.1)'}*/ color={'black'} paddingY={'8px'} alignSelf={'center'} backdropBlur={'8px'} borderRadius={'8px'} width={'fit-content'} fontStyle={'Comfortaa'} fontWeight={700} fontSize={screenSize.width < 928 ? screenSize.width < 366 ? `10px !important` : `12px` : `22px`}>POZIVAMO VAS DA ZAJEDNO PROSLAVIMO DAN NAŠEG VJENČANJA !</Box>
-                </h2></Box>
+                {/* <Box  w={'90%'}  position={'absolute'} top={screenSize.width < 928 ? screenSize.width < 366 ? `${height - 55}px` : `${height - 50}px` : `${height - 70}px`} ><h2 className="website-breeze__cover-h2 website-breeze__editable" style={{width: 'fit-content'}}>*/}
+                {/*     <Box  color={'black'} paddingY={'8px'} alignSelf={'center'} backdropBlur={'8px'} borderRadius={'8px'} width={'fit-content'} fontStyle={'Comfortaa'} fontWeight={700} fontSize={screenSize.width < 928 ? screenSize.width < 366 ? `10px !important` : `12px` : `22px`}>POZIVAMO VAS DA ZAJEDNO PROSLAVIMO DAN NAŠEG VJENČANJA !</Box>*/}
+                {/* </h2></Box>*/}
             </Box>
         </Flex>
     )
