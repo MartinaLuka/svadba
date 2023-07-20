@@ -1,10 +1,14 @@
 import image from "../images/naslovna.jpg"
-import {Box, Divider, Heading} from "@chakra-ui/react";
+import casice from "../images/case.png";
+import krevet from "../images/krevet.png";
+import Sivo from "../images/Sivo.png";
+
+import {Box, Divider, Heading, Image} from "@chakra-ui/react";
 import {ContactForm} from "./ContactForm";
 import {Header} from "./Header";
 export const Wedding = () => {
         return (
-            <div style={{backgroundColor: "#a5bbb9"}}>
+            <div style={{backgroundColor: "#BFA164"}}>
                 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
                 <link rel="manifest" href="/manifest.json" />
                 <link rel="shortcut icon" href="/favicon-32x32.png" />
@@ -66,6 +70,9 @@ export const Wedding = () => {
                 <link as="script" rel="prefetch" href="/_next/static/chunks/pages/index-8d42dece7a24515d.js" />
                 <div id="__next" data-reactroot>
                     <Header />
+                    <Box fontSize={'16px'} fontFamily={'Comfortaa'} color={'white'} mt={'32px'} paddingX={'32px'}>Dragi naši, pozivamo vas da proslavite s nama dan našega vjenčanja, koje će se održati</Box>
+                    <Box fontSize={'25px'} fontWeight={'700'} fontFamily={'Comfortaa'} color={'white'} mt={'24px'} paddingX={'32px'}>28.10.2023.</Box>
+                    <Divider bgColor={'white'} h={'1px'} w={'65%'} mt={'32px'}/>
                     <Box id="travel" className="website-breeze__container" mb={'-72px'}>
                         <div className="website-breeze__two-in-row">
                             <div className="website-breeze__two-in-row-column website-breeze__vertical-centred">
@@ -74,22 +81,20 @@ export const Wedding = () => {
                                         <Box style={{fontWeight: 700}}>OKUPLJANJE</Box>
                                     </h3>
                                     <br />
-                                    <p className="website-breeze__section-date website-breeze__editable">28.10.2023</p>
-                                    <br />
                                     <h4 className="website-breeze__section-time website-breeze__editable">
                                         <div>13:30h</div>
                                     </h4>
                                     <br />
-                                    <p className="website-breeze__section-location  website-breeze__editable">Vinarija Podrum Mali, Ul. Vladimira Nazora 43a, 31400, Đakovo
-                                    </p>
+                                    <Box fontSize={'14px'} className="website-breeze__section-location  website-breeze__editable" >Vinarija Podrum Mali,<br /> Ul. Vladimira Nazora 43a, 31400, Đakovo
+                                    </Box>
                                     <br />
                                     <Box mb={'-32px'} className="website-breeze__section-map-link"><a href="https://www.google.com/maps/place/%C4%90akova%C4%8Dki+podrum+Mali/@45.318774,18.4151745,18.82z/data=!4m6!3m5!1s0x475c554eb6e7f8b3:0x302edf8953a1060d!8m2!3d45.3186626!4d18.4156288!16s%2Fg%2F11sy9p7zxk?entry=ttu" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></Box>
                                     <a style={{marginTop: 56}} className="website-breeze__section-rsvp" href="#rsvp">POTVRDA DOLASKA</a>
                                 </div>
                             </div>
-                            <div className="website-breeze__two-in-row-column">
-                                <div className="website-breeze__image" style={{backgroundImage: 'url("https://lh5.googleusercontent.com/p/AF1QipMVvAx4gpp16qmrs5zIUQFiRgDsfg5LeRfqVUqW=s870-k-no"), url(data:image/png', backgroundSize: 'cover', backgroundPosition: 'center center'}} />
-                            </div>
+                            {/*<div className="website-breeze__two-in-row-column">*/}
+                            {/*    <div className="website-breeze__image" style={{backgroundImage: 'url("https://lh5.googleusercontent.com/p/AF1QipMVvAx4gpp16qmrs5zIUQFiRgDsfg5LeRfqVUqW=s870-k-no"), url(data:image/png', backgroundSize: 'cover', backgroundPosition: 'center center'}} />*/}
+                            {/*</div>*/}
                         </div>
                     </Box>
                     <Box id="details" className="website-breeze__container">
@@ -103,18 +108,15 @@ export const Wedding = () => {
                             <Box className="website-breeze__two-in-row-column website-breeze__vertical-centred">
                                 <Box className="website-breeze__text-center">
                                     <h3 className="website-breeze__section-h3 website-breeze__editable">
-                                        <div>OBRED</div>
+                                        <Box style={{fontWeight: 700}}>MISA</Box>
                                     </h3>
-                                    <br />
-                                    <p className="website-breeze__section-date website-breeze__editable">28.10.2023</p>
                                     <br />
                                     <h4 className="website-breeze__section-time website-breeze__editable">
                                         <div>16:00h</div>
                                     </h4>
                                     <br />
-                                    <p className="website-breeze__section-location  website-breeze__editable">Strossmayerov trg 6, 31400, Đakovo</p>
-                                    <br />
-                                    <p className="website-breeze__section-map-link"><a href="https://www.google.com/maps/search/?api=1&query=@45.3078845,18.4100926,19z&query_place_id=ChIJYbGa3pBVXEcRC2Ch7n1so0M" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></p>
+                                    <Box mb={'-8px'} fontSize={'14px'} className="website-breeze__section-location  website-breeze__editable">Katedrala sv. Petra, <br />Strossmayerov trg 6, 31400, Đakovo</Box>
+                                    <Box mt={'8px'} mb={'16px'} className="website-breeze__section-map-link"><a href="https://www.google.com/maps/search/?api=1&query=@45.3078845,18.4100926,19z&query_place_id=ChIJYbGa3pBVXEcRC2Ch7n1so0M" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></Box>
                                     <a className="website-breeze__section-rsvp" href="#rsvp">POTVRDA DOLASKA</a>
                                 </Box>
                             </Box>
@@ -124,38 +126,35 @@ export const Wedding = () => {
                             <div className="website-breeze__two-in-row-column website-breeze__vertical-centred">
                                 <div className="website-breeze__text-center">
                                     <h3 className="website-breeze__section-h3 website-breeze__editable">
-                                        <div>VEČERA</div>
+                                        <Box style={{fontWeight: 700}}>VEČERA</Box>
                                     </h3>
-                                    <br />
-                                    <p className="website-breeze__section-date website-breeze__editable">28.10.2023</p>
                                     <br />
                                     <h4 className="website-breeze__section-time website-breeze__editable">
                                         <div>18:30h</div>
                                     </h4>
                                     <br />
-                                    <p className="website-breeze__section-location  website-breeze__editable">Ul. Nikole Tesle 88, 31400, Đakovo</p>
-                                    <br />
-                                    <p className="website-breeze__section-map-link"><a href="https://www.google.com/maps/search/?api=1&query=@45.3350783,18.4196805,19z&query_place_id=EixVbC4gTmlrb2xlIFRlc2xlIDg4LCAzMTQwMCwgxJBha292bywgQ3JvYXRpYSIwEi4KFAoSCR05sPlz_1xHEe2yl6zRZ4VmEFgqFAoSCcWjAn16_1xHESnwdURusoWF" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></p>
+                                    <p className="website-breeze__section-location  website-breeze__editable">Svečana dvorana Mima, <br />Ul. Nikole Tesle 88, 31400, Đakovo</p>
+                                    <Box mt={'-12px'} mb={'16px'} className="website-breeze__section-map-link"><a href="https://www.google.com/maps/search/?api=1&query=@45.3350783,18.4196805,19z&query_place_id=EixVbC4gTmlrb2xlIFRlc2xlIDg4LCAzMTQwMCwgxJBha292bywgQ3JvYXRpYSIwEi4KFAoSCR05sPlz_1xHEe2yl6zRZ4VmEFgqFAoSCcWjAn16_1xHESnwdURusoWF" target="_blank" rel="noopener noreferrer">Pogledaj na karti</a></Box>
                                     <a className="website-breeze__section-rsvp" href="#rsvp" >POTVRDA DOLASKA</a>
                                 </div>
                             </div>
                             <div className="website-breeze__two-in-row-column website-breeze__move-up">
-                                <div className="website-breeze__image" style={{backgroundImage: 'url(https://static0.planning.wedding/website-theme/breeze/47f43d5993c7_normal.jpg), url(data:image/png', backgroundSize: 'cover', backgroundPosition: 'center center'}} />
+                                <Image mt={'56px'} src={casice} w={'250px'} h={'120px'}></Image>
                             </div>
                         </div>
                     </Box>
                     <div id="travel" className="website-breeze__container">
                         <div className="website-breeze__two-in-row">
                             <div className="website-breeze__two-in-row-column">
-                                <div className="website-breeze__image" style={{backgroundImage: 'url(https://static0.planning.wedding/website-theme/breeze/3769d216e0ad_normal.jpg), url(data:image/png', backgroundSize: 'cover', backgroundPosition: 'center center'}} />
+                                <Image mb={'-32px'} src={krevet} w={'200px'} h={'auto'}></Image>
                             </div>
                             <div className="website-breeze__two-in-row-column website-breeze__vertical-centred">
                                 <div className="website-breeze__text-center">
                                     <h3 className="website-breeze__section-h3 website-breeze__editable">
-                                        <div>GDJE PRESPAVATI?</div>
+                                        <Box style={{fontWeight: 700}}>GDJE PRESPAVATI?</Box>
                                     </h3>
-                                    <p className="website-breeze__story website-breeze__editable">
-                                    </p><div>Rezervirali smo apartmane po Đakovu pa bismo vas molili skorašnji odgovor kako bismo organizirali spavanja te vam na vrijeme poslali lokaciju. Svi smještaji su na maksimalno 10 minuta vožnje od sale, a u Đakovu postoji i taksi pomoću kojeg se možete prevesti do apartmana ne vodeći brigu o policiji po putu :)</div>
+                                    <Box mt={'-16px'} className="website-breeze__story website-breeze__editable">
+                                    </Box><div>Rezervirali smo apartmane po Đakovu pa bismo vas molili skorašnji odgovor kako bismo organizirali spavanja te vam na vrijeme poslali lokaciju. Svi smještaji su na maksimalno 10 minuta vožnje od sale, a u Đakovu postoji i taksi pomoću kojeg se možete prevesti do apartmana ne vodeći brigu o policiji po putu :)</div>
                                     <p />
                                 </div>
                             </div>
@@ -167,17 +166,16 @@ export const Wedding = () => {
                             <div>POTVRDA DOLASKA</div>
                         </Box>
                         <p className="website-breeze__story website-breeze__editable">
-                        </p><div>
+                        </p><Box mt={'-16px'}>
                         Ako imate kakve posebne dijetne restrikcije (vegetarijanska, bezglutenska prehrana primjerice), molimo da nam to naglasite.
                         <div><br /></div>
                         <div>
                             Također, ukoliko ste zainteresirani za organizirani prijevoz s busom ili kombijem (polazak u subotu ujutro, povratak u ranim jutarnjim satima u nedjelju), molimo napišite u sekciju za komentar.
                             <div><br /></div>
-                            <div>Očekujemo vaš (okviran) odgovor do 1.8. kako bismo na vrijeme organizirali smještaj i broj uzvanika u sali. Konačan odgovor i potvrdu broja ljudi očekujemo zaključno s 13.10.</div>
+                            <div>Očekujemo vaš (okviran) odgovor do 15.8.2023. kako bismo na vrijeme organizirali smještaj i broj uzvanika u sali. <br /><br /> Konačan odgovor i potvrdu broja ljudi očekujemo zaključno s 13.10.2023.</div>
                         </div>
                         <div><br /></div>
-                        <div>Veselimo se Vašem dolasku! :)</div>
-                    </div>
+                    </Box>
                         <p />
                         <ContactForm />
                     </div>
@@ -212,6 +210,7 @@ export const Wedding = () => {
                         <div><span /></div>
                     </div>
                 </div>
+                <Image mb={'-40px'} mt={'16px'} src={Sivo} w={'100%'} h={'auto'}></Image>
             </div>
         );
     }

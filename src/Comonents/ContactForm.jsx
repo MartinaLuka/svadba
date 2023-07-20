@@ -48,7 +48,7 @@ export const ContactForm = () => {
 
 
     const sendEmail = () => {
-        emailjs.send('service_y43m3zo', 'template_24gvkdo', {name: firstName, lastName, message, attendance: isAttending, transport, numOfGuests, restrictions: restrictions ? "IMAM" : 'Nemam'}, 'q7fXFIVo9fuvo6Nwx')
+        emailjs.send('service_lkf62mc', 'template_fj6v1pq', {name: firstName, lastName, message, attendance: isAttending, transport, numOfGuests, restrictions: restrictions ? "IMAM" : 'Nemam'}, 'eI8kmHSEc4IlkqUKL')
             .then((result) => {
                 setSuccess(Success.SUCCESS)
                 setLoading(false)

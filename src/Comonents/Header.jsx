@@ -1,4 +1,4 @@
-import image from "../images/obicna.png";
+import image from "../images/zadnja.png";
 import {Box, Flex, Heading} from "@chakra-ui/react";
 import {useEffect, useRef, useState} from "react";
 
@@ -37,7 +37,7 @@ export const Header = () => {
 
     return (
         <Flex w={'100%'}>
-            <Box ref={ref} position={'relative'} id="header" className="website-breeze__cover" style={{backgroundImage:`url(${image})`, height: `${screenSize.width / 10}px`, backgroundSize: 'cover', backgroundPosition: 'center center', width: '100%' }}>
+            <Box ref={ref} position={'relative'} id="header" className="website-breeze__cover" style={{backgroundImage:`url(${image})`, height: `${screenSize.width / 5}px`, backgroundSize: 'cover', backgroundPosition: 'center center', width: '100%' }}>
                 {/*<Box className="website-breeze__cover-backdrop" />*/}
                 {/*<Box className="website-breeze__cover-box">*/}
                 {/*<Flex position={'absolute'} top={screenSize.width > 600 ? '15%' : '16px'} flexDir={'column'}>*/}
