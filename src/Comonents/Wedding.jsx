@@ -70,7 +70,7 @@ export const Wedding = () => {
                 <link as="script" rel="prefetch" href="/_next/static/chunks/pages/index-8d42dece7a24515d.js" />
                 <div id="__next" data-reactroot>
                     <Header />
-                    <Box fontSize={'16px'} fontFamily={'Comfortaa'} color={'white'} mt={'32px'} paddingX={'32px'}>Dragi naši, pozivamo vas da proslavite s nama dan našega vjenčanja, koje će se održati</Box>
+                    <Box fontSize={'16px'} fontFamily={'Comfortaa'} color={'white'} mt={'32px'} paddingX={'32px'}>Dragi naši, pozivamo vas da proslavite s nama dan našeg vjenčanja, koje će se održati</Box>
                     <Box fontSize={'25px'} fontWeight={'700'} fontFamily={'Comfortaa'} color={'white'} mt={'24px'} paddingX={'32px'}>28.10.2023.</Box>
                     <Divider bgColor={'white'} h={'1px'} w={'65%'} mt={'32px'}/>
                     <Box id="travel" className="website-breeze__container" mb={'-72px'}>
